@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <SurfaceView
+      android:id="@+id/surfaceView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="0dp"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"/>
+
+  <android.support.v7.widget.Toolbar
+      android:id="@+id/toolbar"
+      android:layout_width="match_parent"
+      android:layout_height="?attr/actionBarSize"
+      android:layout_alignParentTop="true"
+      android:background="@color/tfe_semi_transparent">
+
+      <TextView
+          android:textColor="#ffffff"
+          android:textSize="20sp"
+          android:text="TF Lite Posenet"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+  </android.support.v7.widget.Toolbar>
+
+</RelativeLayout>
